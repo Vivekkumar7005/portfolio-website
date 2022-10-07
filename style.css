@@ -10,7 +10,8 @@ body{
 .outer{
 	width: 100%;
 	height: 100vh;
-	border: 4px solid red;
+	/*border: 4px solid red;*/
+	float: left;
 }
 .top_nav{
 	width: 100%;
@@ -20,6 +21,7 @@ body{
 	align-items: center;
 	background-color: white;
 	position: fixed;
+	box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
 }
 .left_nav{
 	width: 320px;
@@ -27,7 +29,7 @@ body{
 	/*border: 1px solid red;*/
 	position: absolute;
 	left: 100px;
-    font-size: 40px;
+    font-size: 34px;
     color: purple;
 }
 .right_nav{
@@ -37,15 +39,15 @@ body{
 	position: absolute;
 	right: 0;
 	font-size: 20px;
-	font-weight: 800;
+	font-weight: 500;
 	padding-left: 50px;
-	padding-top: 6px;
+	padding-top: 3px;
 }
 .name{
 	width: 300px;
 	height: 46px;
 	/*border: 1px solid brown;*/
-	color: #E51845;
+	color: purple;
 	font-weight: 600;
 }
 ul{
@@ -56,22 +58,23 @@ li{
 	padding: 10px 20px;
 }
 a{
-	color: #AAB2B1;
+	color: #3f3a64;
 	text-decoration: none;
 }
 .active{
-	color: aqua;
+	color: purple;
 }
 .banner{
 	width: 100%;
-	height: 550px;
+	height: 565px;
 	border: 1px solid blue;	
 	margin-top: 90px;
+	background-color: #F9F7FE;
 }
 .about_section{
 	width: 100%;
 	height: 200px;
-	border: 1px solid blue;	
+	border: 2px solid blue;	
 	margin-top: 90px;
 	background-color: #F9F7FE;	
 }
@@ -118,4 +121,87 @@ a{
 	display: flex;
 	justify-content: center;
 }
+.banner_left_col{
+	width: 50%;
+	height: 565px;
+	border: 2px solid darkred;	
+	float: left;
+}
+.banner_right_col{
+	width: 50%;
+	height: 565px;
+	border: 2px solid yellow;	
+	float: left;
+}
+
+
+.section2{
+	width: 100%;
+	height: 565px;
+	border: 2px solid pink;	
+	float: left;
+	background-color: #FFFFFF;
+}
+.section3{
+	width: 100%;
+	height: 450px;
+	border: 2px solid aqua;	
+	float: left;
+	background-color: #F9F7FE;
+}
+.section4{
+	width: 100%;
+	height: 600px;
+	border: 2px solid black;	
+	float: left;
+	background-color: #FFFFFF;
+}
+.section5{
+	width: 100%;
+	height: 500px;
+	border: 2px solid violet;	
+	float: left;
+	background-color: #F9F7FE;
+}
+.section6{
+	width: 100%;
+	height: 600px;
+	border: 2px solid darkgoldenrod;	
+	float: left;
+	background-color: #FFFFFF;
+}
+.section7{
+	width: 100%;
+	height: 700px;
+	border: 2px solid darkmagenta;	
+	float: left;
+	background-color: #F9F7FE;
+}
+.get_in_touch{
+	width: 100%;
+	height: 350px;
+	border: 2px solid darkolivegreen;	
+	float: left;
+	background-color: #FFFFFF;
+}
+.footer{
+	width: 100%;
+	height: 150px;
+	border: 2px solid darkkhaki;	
+	float: left;
+	background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
