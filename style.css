@@ -8,14 +8,14 @@ body{
 }
 .outer{
 	width: 100%;
-	/*height: 955vh;*/
-	/*border: 4px solid red;*/
+	height: 900vh;
+	border: 4px solid red;
 	float: left;
 }
 #back_image{
 	width: 100%;
-	/*height: 650px;*/
-	/*border: 2px solid black;*/
+	height: 100vh;
+	/*border: 1px solid black;*/
 	float: left;
 	/*clear: both;*/
 	background-image: url(images/vivek_back.jpg);
@@ -25,27 +25,27 @@ body{
 }
 .transparent{
 	width: 100%;
-	/*height: 646px;*/
+	height: 100vh;
 	float: left;
-	/*border: 2px solid yellow;*/
+	/*border: 1px solid yellow;*/
 	background-color: rgba(0,0,0, 0.7);
 }
 .top_nav{
 	width: 100%;
-	height: 90px;
+	height: 15%;
 	/*border: 1px solid black;*/
 	display: flex;
 	align-items: center;
-	position: fixed;
+	/*position: fixed;*/
 	box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
 }
 .left_nav{
-	width: 450px;
-	/*height: 50px;*/
+	width: 10%;
+	height: 80%;
 	/*border: 1px solid red;*/
 	position: absolute;
-	left: 100px;
-	/*top: 18px;*/
+	left: 105px;
+	top: 18px;
     font-size: 36px;
 }
 .left_nav span{
@@ -54,11 +54,11 @@ body{
 	font-size: 48px;
 }
 .right_nav{
-	width: 550px;
-	/*height: 50px;*/
+	width: 40%;
+	height: 50px;
 	/*border: 1px solid red;*/
 	position: absolute;
-	right: 0;
+	right: 50px;
 	font-size: 20px;
 	font-weight: 500;
 	padding-left: 10px;
@@ -83,24 +83,25 @@ a{
 	color: #00A78E;
 }
 .banner{
-	width: 1140px;
-	height: 495px;
+	width: 88%;
+	height: 73%;
 	/*border: 2px solid white;*/
-	margin-top: 140px;
-	margin-left: 100px;
+	position: absolute;
+	right: 30px;
+	bottom: 10px;
 	background-color: rgba(0, 0, 0, 0.7);
 }
 .banner_left_col{
 	width: 50%;
-	height: 470px;
+	height: 440px;
 	/*border: 2px solid darkred;	*/
 	float: left;
 	margin-left: 50px;
-	margin-top: 15px;
+	margin-top: 20px;
 }
 .banner_right_col{
 	width: 40%;
-	height: 495px;
+	height: 475px;
 	/*border: 2px solid yellow;	*/
 	float: right;
 	display: flex;
@@ -184,7 +185,7 @@ a{
 	height: 620px;
 	/*border: 2px solid black;	*/
 	float: left;
-	margin-top: 50px;
+	margin-top: 150px;
 }
 .about_me{
 	width: 100%;
@@ -196,18 +197,18 @@ a{
 }
 .bold_text{
 	width: 80%;
-	height: 60px;
+	height: 100px;
 	font-size: 50px;
 	font-weight: 500;
 	color: /*#3F3A64*/ #00A78E;
 	/*border: 2px solid black;*/
 	display: flex;
 	justify-content: center;
-	margin-top: 10px;
+	padding-top: 10px;
 }
 .my_name{
-	width: 665px;
-	height: 135px;
+	width: 49.8%;
+	height: 22%;
 	/*border: 2px solid green;	*/
 	float: right;
 	margin-top: 50px;
@@ -234,12 +235,12 @@ a{
 	margin-left: 28px;
 }
 .intro_text{
-	width: 680px;
-	height: 320px;
+	width: 49%;
+	height: 50%;
 	/*border: 2px solid blue;	*/
 	float: right;
-	margin-top: 10px;
-	margin-right: 150px;
+	margin-top: 25px;
+	margin-right: 190px;
 }
 .small_font2{
 	font-size: 18px;
@@ -298,8 +299,8 @@ a{
 }
 .left_image{
 	width: 380px;
-	height: 440px;
-	/*border: 20px solid black;	*/
+	height: 71%;
+	border: 20px solid black;	
 	float: left;
 	margin-left: 90px;
 	margin-top: 50px;
@@ -337,6 +338,7 @@ a{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	background-color: #f5dfcf6b;
 }
 .inner_boxes{
 	width: 20%;
@@ -371,7 +373,7 @@ a{
 
 .skills{
 	width: 100%;
-	height: 1200px;
+	height: 634px;
 	/*border: 2px solid coral;	*/
 	float: left;
 	margin-top: 150px;
@@ -389,190 +391,89 @@ a{
 	color: #6E6B69;
 	text-align: center;
 }
-.skills_left_col{
-	width: 50%;
-	height: 980px;
+.skills_upper_row{
+	width: 100%;
+	height: 200px;
 	/*border: 2px solid gray;	*/
 	float: left;
 	margin-top: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
-.skills_right_col{
-	width: 50%;
-	height: 980px;
-	/*border: 2px solid violet;	*/
-	float: left;
-	margin-top: 120px;
+.upper_row_box{
+	width: 25%;
+	height: 100%;
+	/*border: 2px solid red;	*/
 }
-.skills_right_image{
+.skills_lower_row{
 	width: 100%;
-	height: 930px;
+	height: 200px;
 	/*border: 2px solid blue;	*/
 	float: left;
-	background-image: url(images/success.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 10px;
 }
-.transparent2{
-	width: 100%;
-	height: 930px;
-	float: left;
-	/*border: 2px solid yellow;*/
-	background-color: rgba(0,0,0, 0.5);
-}
-.skill_text2{
-	width: 100%;
-	height: 150px;
-	float: left;
-	/*border: 2px solid darkred;*/
-}
-.skill_inner_text2{
-	width: 100%;
-	height: 30px;
-	/*border: 2px solid brown;*/
-	float: left;
-	margin-top: 48px;
-	/*text-align: left;*/
-	padding-left: 73px;
-	font-size: 18px;
-	color: white;
-}
-.progress_bar2{
-	width: 60%;
-	height: 9px;
-	/*border: 2px solid red;*/
-	margin-top: 80px;
-	margin-left: 75px;
-	background-color: #D3D3D3;	
-	border-radius: 5px;
-}
-.progress_color_professional{
-	width: 90%;
-	height: 8px;
-	/*border: 2px solid blue;*/
-	background-color: #4F9DA6;
-	border-radius: 5px;
-}
-.progress_color_professional2{
-	width: 88%;
-	height: 8px;
-	/*border: 2px solid blue;*/
-	background-color: #4F9DA6;
-	border-radius: 5px;
-}
-.progress_color_professional3{
-	width: 90%;
-	height: 8px;
-	/*border: 2px solid blue;*/
-	background-color: #4F9DA6;
-	border-radius: 5px;
-}
-.progress_color_professional4{
-	width: 95%;
-	height: 8px;
-	/*border: 2px solid blue;*/
-	background-color: #4F9DA6;
-	border-radius: 5px;
-}
-.progress_color_professional5{
-	width: 90%;
-	height: 8px;
-	/*border: 2px solid blue;*/
-	background-color: #4F9DA6;
-	border-radius: 5px;
-}
-.progress_color_professional6{
-	width: 100%;
-	height: 8px;
-	/*border: 2px solid blue;*/
-	background-color: #4F9DA6;
-	border-radius: 5px;
-}
-.left_col_stripe{
-	width: 100%;
-	height: 45px;
-	border: 2px solid black;	
-	float: left;
-	color: white;
-	background-color: black;
-	font-size: 30px;
-	text-align: center;
-	font-size: 800;
-	word-spacing: 10px;
-	letter-spacing: 2px;
-}
-.right_col_stripe{
-	width: 100%;
-	height: 45px;
-	border: 2px solid black;	
-	float: left;
-	color: white;
-	background-color: black;
-	font-size: 30px;
-	text-align: center;
-	font-size: 800;
-	word-spacing: 10px;
-	letter-spacing: 2px;
-}
-.skills_container{
-	width: 100%;
-	height: 150px;
-	/*border: 2px solid red;	*/
-	float: left;
-	margin-top: 5px;
+.lower_row_box{
+	width: 25%;
+	height: 100%;
+	/*border: 2px solid darkolivegreen;	*/
 }
 .skill_image{
-	width: 15%;
-	height: 90px;
+	width: 30%;
+	height: 50%;
 	/*border: 2px solid darkred;*/
-	margin: 30px 0 0 120px;
+	margin: 20px 0 0 115px;
 	display: inline-block;
 }
 .skill_image2{
-	width: 15%;
-	height: 90px;
+	width: 30%;
+	height: 50%;
 	/*border: 2px solid darkred;*/
-	margin: 30px 0 0 120px;
+	margin: 20px 0 0 115px;
 	display: inline-block;
-	padding-left: 15px;
 }
 .skill_image3{
-	width: 15%;
-	height: 90px;
+	width: 30%;
+	height: 50%;
 	/*border: 2px solid darkred;*/
-	margin: 30px 0 0 120px;
+	margin: 20px 0 0 115px;
 	display: inline-block;
-	padding-top: 5px;
-	padding-left: 10px;
 }
 .skill_image4{
-	width: 15%;
-	height: 90px;
+	width: 30%;
+	height: 50%;
 	/*border: 2px solid darkred;*/
-	margin: 30px 0 0 120px;
+	margin: 20px 0 0 115px;
 	display: inline-block;
-	padding-top: 30px;
 }
 .skill_image5{
-	width: 15%;
-	height: 90px;
+	width: 30%;
+	height: 50%;
 	/*border: 2px solid darkred;*/
-	margin: 30px 0 0 120px;
+	margin: 20px 0 0 115px;
 	display: inline-block;
-	padding-left: 25px;
-	padding-top: 5px;
+}
+.skill_image6{
+	width: 30%;
+	height: 50%;
+	/*border: 2px solid darkred;*/
+	margin: 20px 0 0 115px;
+	display: inline-block;
 }
 .skill_text{
-	width: 60%;
-	height: 150px;
+	width: 100%;
+	height: 40%;
 	/*border: 2px solid darkred;*/
-	float: right;
+	float: left;
 }
 .skill_inner_text{
 	width: 100%;
 	height: 30px;
 	/*border: 2px solid brown;*/
 	float: left;
-	margin-top: 48px;
 	text-align: center;
 	font-size: 18px;
 	color: #C3008B;
@@ -581,49 +482,53 @@ a{
 	width: 60%;
 	height: 10px;
 	/*border: 2px solid red;*/
-	margin-top: 80px;
-	margin-left: 75px;
+	margin-top: 40px;
+	margin-left: 65px;
 	background-color: #D3D3D3;	
+	border-radius: 5px;
 }
 .progress_color{
 	width: 90%;
 	height: 9px;
 	/*border: 2px solid blue;*/
 	background-color: #F16529;
+	border-radius: 5px;
 }
 .progress_color2{
 	width: 90%;
 	height: 9px;
 	/*border: 2px solid blue;*/
 	background-color: #2965F1;
+	border-radius: 5px;
 }
 .progress_color3{
 	width: 80%;
 	height: 9px;
-	/*border: 2px solid blue;*/
+	border: 2px solid blue;
 	background-color: #7309F5;
+	border-radius: 5px;	
 }
 .progress_color4{
 	width: 85%;
 	height: 9px;
 	/*border: 2px solid blue;*/
 	background-color: #E8C831;
+	border-radius: 5px;	
 }
 .progress_color5{
 	width: 70%;
 	height: 9px;
 	/*border: 2px solid blue;*/
 	background-color: #87CEEB;
+	border-radius: 5px;	
 }
 .progress_color6{
 	width: 60%;
 	height: 9px;
 	/*border: 2px solid blue;*/
 	background-color: #001D34;
+	border-radius: 5px;	
 }
-
-
-
 
 .works{
 	width: 100%;
@@ -649,22 +554,22 @@ a{
     width: 100%;
     height: 1200px;
     text-align: center;
-    /*border: 1px solid black; */
+    border: 1px solid black; 
 }
 .work_pic1 img{
     width: 60%;
     margin-top: 10px;
-    /*border: 1px solid blue;*/
+    border: 1px solid blue;
 }
 .work_pic2 img{
     width: 60%;
     margin-top: 10px;
-    /*border: 1px solid blue;*/
+    border: 1px solid blue;
 }
 .work_pic3 img{
     width: 60%;
     margin-top: 10px;
-    /*border: 1px solid blue;*/
+    border: 1px solid blue;
 }
 .contact{
 	width: 100%;
@@ -770,11 +675,10 @@ a{
 	margin-left: 195px;
 }
 .map{	
-	width: 80%;
+	width: 100%;
 	height: 300px;
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 	margin-top: 950px;
-	margin-left: 10%;
 }
 .footer{
 	width: 100%;
