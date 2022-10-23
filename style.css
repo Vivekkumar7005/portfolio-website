@@ -8,14 +8,14 @@ body{
 }
 .outer{
 	width: 100%;
-	height: 5820px;
-	border: 4px solid red;
+	height: 5440px;
+	/*border: 4px solid red;*/
 	float: left;
 }
 #back_image{
 	width: 100%;
 	height: 100vh;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	float: left;
 	/*clear: both;*/
 	background-image: url(images/vivek_back.jpg);
@@ -27,13 +27,13 @@ body{
 	width: 100%;
 	height: 100vh;
 	float: left;
-	border: 1px solid yellow;
+	/*border: 1px solid yellow;*/
 	background-color: rgba(0,0,0, 0.7);
 }
 .top_nav{
 	width: 100%;
 	height: 90px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	display: flex;
 	align-items: center;
 	/*position: fixed;*/
@@ -42,7 +42,7 @@ body{
 .left_nav{
 	width: 10%;
 	height: 80px;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	position: absolute;
 	left: 105px;
 	top: 18px;
@@ -56,9 +56,9 @@ body{
 .right_nav{
 	width: 40%;
 	height: 50px;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	position: absolute;
-	right: 50px;
+	right: 2%;
 	font-size: 20px;
 	font-weight: 500;
 	padding-left: 10px;
@@ -73,7 +73,7 @@ ul{
 }
 li{
 	float: left;
-	padding: 10px 20px;
+	padding: 1.8% 4%;
 }
 a{
 	color: white;
@@ -85,7 +85,7 @@ a{
 .banner{
 	width: 88%;
 	height: 495px;
-	border: 2px solid white;
+	/*border: 2px solid white;*/
 	position: absolute;
 	right: 30px;
 	bottom: 10px;
@@ -94,7 +94,7 @@ a{
 .banner_left_col{
 	width: 50%;
 	height: 470px;
-	border: 2px solid darkred;	
+	/*border: 2px solid darkred;	*/
 	float: left;
 	margin-left: 50px;
 	margin-top: 20px;
@@ -102,7 +102,7 @@ a{
 .banner_right_col{
 	width: 40%;
 	height: 495px;
-	border: 2px solid yellow;	
+	/*border: 2px solid yellow;	*/
 	float: right;
 	display: flex;
 	align-items: center;
@@ -208,17 +208,40 @@ a{
 .about_section{
 	width: 100%;
 	height: 620px;
-	border: 2px solid black;	
+	/*border: 2px solid black;	*/
 	float: left;
 	margin-top: 150px;
 }
 .about_me{
 	width: 100%;
 	height: 100px;
-	border: 2px solid blue;	
+	/*border: 2px solid blue;	*/
 	float: left;
 	background-color: #F9F7FE;	
-	padding-left: 200px;
+	padding-left: 20%;
+}
+.left_container{
+	width: 35%;
+	height: 520px;
+	/*border: 1px solid red;	*/
+	float: left;
+}
+.right_container{
+	width: 65%;
+	height: 520px;
+	/*border: 1px solid green;	*/
+	float: left;
+}
+.left_image{
+	width: 380px;
+	height: 85%;
+	border: 20px solid black;	
+	float: right;
+	/*margin-left: 90px;*/
+	margin-top: 50px;
+	background-image: url(images/vivek.png);
+	background-size: cover;
+	background-position: top;
 }
 .bold_text{
 	width: 80%;
@@ -226,7 +249,7 @@ a{
 	font-size: 50px;
 	font-weight: 500;
 	color: /*#3F3A64*/ #00A78E;
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	display: flex;
 	justify-content: center;
 	padding-top: 10px;
@@ -234,16 +257,15 @@ a{
 .my_name{
 	width: 665px;
 	height: 135px;
-	border: 2px solid green;	
-	float: right;
-	margin-top: 3.8%;
-	margin-right: 15%;
+	/*border: 2px solid green;	*/
+	float: left;
+	margin-top: 5.7%;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
 }
 .my_name h2{
 	width: 610px;
 	height: 40px;
-	border: 1px solid brown;
+	/*border: 1px solid brown;*/
 	font-size: 30px;
 	font-weight: 600px;
 	letter-spacing: 3px;
@@ -253,19 +275,19 @@ a{
 .my_name p{
 	width: 610px;
 	height: 25px;
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 	font-size: 20px;
 	font-weight: 500px;
 	letter-spacing: 2px;
 	margin-left: 28px;
 }
 .intro_text{
-	width: 49%;
-	height: 50%;
-	border: 2px solid blue;	
-	float: right;
-	margin-top: 25px;
-	margin-right: 190px;
+	width: 665px;
+	height: 300px;
+	/*border: 2px solid blue;	*/
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
 }
 .small_font2{
 	font-size: 18px;
@@ -279,13 +301,13 @@ a{
 .my_info{
 	width: 100%;
 	height: 94px;
-	border: 2px solid blue;	
+	/*border: 2px solid aqua;	*/
 	margin-top: 20px;
 }
 .single_info{	
 	width: 50%;
 	height: 47px;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	float: left;
 }
 .name_heading{
@@ -322,17 +344,6 @@ a{
 .link-box3 a{
 	color: white;
 }
-.left_image{
-	width: 380px;
-	height: 71%;
-	border: 20px solid black;	
-	float: left;
-	margin-left: 90px;
-	margin-top: 50px;
-	background-image: url(images/vivek.png);
-	background-size: cover;
-	background-position: top;
-}
 .intro_text span{
 	font-size: 48px;
 	color: #3F3A64;
@@ -350,14 +361,14 @@ a{
 .hobbies{
 	width: 100%;
 	height: 350px;
-	border: 2px solid green;	
+	/*border: 2px solid green;	*/
 	float: left;
 	margin-top: 150px;
 }
 .hobbies_box{
 	width: 100%;
 	height: 200px;
-	border: 2px solid purple;	
+	/*border: 2px solid purple;	*/
 	margin-top: 50px;
 	float: left;
 	display: flex;
@@ -368,18 +379,18 @@ a{
 .inner_boxes{
 	width: 20%;
 	height: 200px;
-	border: 2px solid sandybrown;
+	/*border: 2px solid sandybrown;*/
 }
 .hobby_image{
 	width: 35%;
 	height: 80px;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	margin: 20px 0 0 80px;
 }
 .hobby_text{
 	width: 80%;
 	height: 35px;
-	border: 2px solid sandybrown;
+	/*border: 2px solid sandybrown;*/
 	margin: 20px 0 0 30px;
 	font-size: 20px;
 	font-weight: 700;
@@ -467,8 +478,8 @@ a{
 	/*border: 2px solid darkred;*/
 	margin: 20px 0 0 115px;
 	display: inline-block;
-	padding-top: 5px;
-	padding-left: 2px;
+	padding-top: 10px;
+	padding-left: 5px;
 }
 .skill_image4{
 	width: 30%;
@@ -492,7 +503,7 @@ a{
 	/*border: 2px solid darkred;*/
 	margin: 20px 0 0 115px;
 	display: inline-block;
-	padding-top: 5px;
+	padding-top: 10px;
 	padding-left: 25px;
 }
 .skill_text{
@@ -565,43 +576,47 @@ a{
 .works{
 	width: 100%;
 	height: 1400px;
-	border: 2px solid orange;	
+	/*border: 2px solid orange;	*/
 	float: left;
 	margin-top: 150px;
 	background-color: #EAEAEA;
 }
 .about_work{
     width: 80%;
+    height: 80px;
     margin: 0 auto;
     text-align: center;
     padding-top: 10px;
     font-size: 21px;
     color: rgba(0, 0, 0, 0.4);
     line-height: 33px;
-    padding: 30px;
-    border: 1px solid black; 
-    margin-top: 100px;
+    padding: 8px;
+    /*border: 1px solid black; */
+    margin-top: 110px;
 }
 .work_pic {
     width: 100%;
-    height: 1200px;
+    height: 1216px;
     text-align: center;
-    border: 1px solid black; 
+    /*border: 1px solid black; */
 }
 .work_pic1 img{
     width: 60%;
-    margin-top: 10px;
-    border: 1px solid blue;
+    height: 360px;
+    margin-top: 20px;
+    /*border: 1px solid blue;*/
 }
 .work_pic2 img{
     width: 60%;
-    margin-top: 10px;
-    border: 1px solid blue;
+    height: 360px;
+    margin-top: 20px;
+    /*border: 1px solid blue;*/
 }
 .work_pic3 img{
     width: 60%;
-    margin-top: 10px;
-    border: 1px solid blue;
+    height: 360px;
+    margin-top: 20px;
+    /*border: 1px solid blue;*/
 }
 
 
@@ -609,22 +624,26 @@ a{
 
 .contact{
 	width: 100%;
-	height: 800px;
-	border: 2px solid blue;	
+	height: 915px;
+	/*border: 2px solid blue;	*/
 	float: left;
 	margin-top: 150px;
 }
 .info_text{
 	width: 100%;
 	height: 70px;
-	border: 2px solid yellow;	
+	/*border: 2px solid yellow;	*/
 	margin-top: 20px;
 	float: left;
+	font-size: 21px;
+	padding: 4px 35px;
+	color: #6E6B69;
+	text-align: center;
 }
 .get_in_touch{
 	width: 100%;
 	height: 60px;
-	border: 2px solid darkolivegreen;	
+	/*border: 2px solid darkolivegreen;	*/
 	float: left;
 	text-align: center;
 	font-size: 30px;
@@ -636,8 +655,8 @@ a{
 }
 .contact_info{
 	width: 100%;
-	height: 200px;
-	border: 2px solid red;	
+	height: 150px;
+	/*border: 2px solid red;	*/
 	float: left;
 	margin-top: 20px;
 	display: flex;
@@ -647,12 +666,12 @@ a{
 .address_box{
 	width: 25%;
 	height: 100%;
-	border: 2px solid purple;		
+	/*border: 1px solid purple;		*/
 }
 .small_font_2{
 	width: 100%;
-	height: 40px;
-	border: 1px solid red;
+	height: 30px;
+	/*border: 1px solid red;*/
 	font-size: 20px;
 	font-weight: 600;
 	color: #00A78E;
@@ -663,17 +682,17 @@ a{
 .para{
 	width: 100%;
 	height: 50px;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 10px;
 	font-size: 25px;
 	font-weight: 700;
 	color: #00A78E;
 }
 .para2{
 	width: 100%;
-	height: 40px;
-	border: 2px solid darkred;
+	height: 30px;
+	/*border: 2px solid darkred;*/
 	text-align: center;
 	font-size: 20px;
 	font-weight: 500;
@@ -682,7 +701,7 @@ a{
 .para3{
 	width: 100%;
 	height: 80px;
-	border: 2px solid darkred;
+	/*border: 2px solid darkred;*/
 	text-align: center;
 	font-size: 20px;
 	font-weight: 500;
@@ -691,18 +710,26 @@ a{
 .social{
 	width: 100%;
 	height: 40px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
+	float: left;
+	font-size: 23px;
+	padding: 3px;
+}
+.social_icon{
+	width: 27%;
+	height: 40px;
+	/*border: 1px solid chocolate;*/
+	margin: 0 auto;
+}
+.social i{
+	padding-left: 8%;
 }
 .map{	
 	width: 100%;
-	height: 300px;
-	border: 1px solid green;
-	margin-top: 950px;
-}
-.map_2{
-	width: 100%;
-	height: 200px;
-	border: 1px solid black;
+	height: 400px;
+	/*border: 1px solid green;*/
+	float: left;
+	margin-top: 30px;
 }
 .footer{
 	width: 100%;
@@ -722,17 +749,3 @@ a{
 	text-align: center;
 	word-spacing: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
