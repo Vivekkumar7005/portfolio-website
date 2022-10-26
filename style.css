@@ -8,7 +8,7 @@ body{
 }
 .outer{
 	width: 100%;
-	height: 5328px;
+	min-height: 5326px;
 	/*border: 1px solid red;*/
 	float: left;
 }
@@ -89,7 +89,7 @@ a{
 	position: absolute;
 	right: 30px;
 	bottom: 10px;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 .banner_left_col{
 	width: 50%;
@@ -944,7 +944,7 @@ a{
     width: 100%;
     height: 1125px;
     float: left;
-    margin-top: 20px;
+    margin-top: 6%;
 }
 .about_me {
     width: 100%;
@@ -972,7 +972,7 @@ a{
 .left_image {
 	width: 100%;
     margin: 9% 0;
-    border: 15px solid black;
+    border: 10px solid gray;
     position: sticky;
     background-image: url(images/vivek.png);
     background-size: cover;
@@ -1048,7 +1048,7 @@ a{
 
 .hobbies {
     height: 990px;
-    margin-top: 6px;
+    margin-top: 6%;
 }
 .hobbies_box {
     width: 100%;
@@ -1069,9 +1069,20 @@ a{
 }
 .hobby_text {
     height: 35px;
-    margin: 40px;
+    margin: 9%;
     /*padding-left: 80px;*/
     text-align: center;
+}
+.hobby_text_2{
+	width: 80%;
+	height: 35px;
+	/*border: 2px solid sandybrown;*/
+	margin: 11% 0 0 12%;
+	font-size: 20px;
+	font-weight: 700;
+	padding-left: 25px;
+	color: #3F3A64;
+	padding-left: 25%;
 }
 
 
@@ -1079,7 +1090,7 @@ a{
 
 .skills {
     height: 1600px;
-    margin-top: 10px;
+    margin-top: 6%;
 }
 .skills_text {
     width: 100%;
@@ -1148,7 +1159,7 @@ a{
 
 .works {
 	height: 880px;
-    margin-top: 5px;
+    margin-top: 10%;
 }
 .about_work {
     width: 95%;
@@ -1180,10 +1191,10 @@ a{
 
 .contact {
 	height: 1210px;
-    margin-top: 10px;
+    margin-top: 15%;
 }
 .info_text p {
-    height: 195px;
+    min-height: 195px;
     margin-top: 10px;
     font-size: 21px;
     padding-top: 2%;
